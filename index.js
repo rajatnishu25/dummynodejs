@@ -19,9 +19,6 @@ mongoose.connect(dburl, { useNewUrlParser: true, useUnifiedTopology: true }).the
 })
 
 
-app.get('/data', (req, res) => {
-  res.send(importData)
-})
 
 
 app.listen(port, () => {
